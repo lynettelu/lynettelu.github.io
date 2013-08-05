@@ -7,6 +7,8 @@ category: blog
 
 ##Grunt是什么？
 
+[get the PDF]({{ site.url }}/downloads/Lynette Lu's Portfolio)
+
 [Grunt][Grunt]是一个基于JavaScript的任务运行工具。
 
 为什么要使用Grunt，简而言之是为了“自动”，用工具自动完成压缩、编译、单元测试、拼写检查等重复性工作。
