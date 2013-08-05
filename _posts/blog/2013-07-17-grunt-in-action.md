@@ -7,7 +7,7 @@ category: blog
 
 ##Grunt是什么？
 
-[get the PDF]({{ site.url }}/downloads/Lynette Lu's Portfolio)
+[get the PDF]({{ site.url }}/downloads/Lynette Lu's Portfolio.jpg)
 
 [Grunt][Grunt]是一个基于JavaScript的任务运行工具。
 
