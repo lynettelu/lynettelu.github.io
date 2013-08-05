@@ -1,63 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-
-  <head>
-
-        <!-- DEFAULT -->
-        <meta name="color:Background" content="#fff"/>
-        <meta name="color:Title" content="#333333"/>
-        <meta name="color:Description" content="#BBBBBB"/>
-        <meta name="color:Text" content="#444"/>
-        <meta name="color:Inline Link" content="#7A7A7A"/>
-        <meta name="color:Inline Link Hover" content="#FCB310"/>
-
-
-        <meta name="font:Title" content="Helvetica Neue"/>
-        <meta name="font:Body" content="Helvetica Neue"/>
-        <meta name="image:Header" content=""/>
-        <meta name="image:Background" content=""/> 
-        <meta name="text:Disqus Shortname" content="" />
-        <meta name="if:Show people I follow" content="0"/> 
-        <meta name="if:Show ask sidebar" content="0"/> 
-        <meta name="if:Endless scrolling" content="0">
-
-
-        <meta name="text:Facebook Shortname" content="" />
-        <meta name="text:Myspace Shortname" content="" />
-        <meta name="text:LastFm Shortname" content="" />
-        <meta name="text:Twitter Shortname" content="" />
-        <meta name="text:Flickr Shortname" content="" />
-        <meta name="text:Vimeo Shortname" content="" />
-        <meta name="text:Youtube Shortname" content="" />
-        <meta name="text:Delicious Shortname" content="" />
-        <meta name="text:Digg Shortname" content="" />
-        <meta name="text:Formspring Shortname" content="" /> 
-        <meta name="if:Show post dividers" content="1"/>
-        
-            <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-               <meta charset="utf-8" />
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <meta charset="utf-8" />
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="Lynette Lu's Blog" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="/css/default.css" type="text/css" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
     <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
-      
-        <!-- END DEFAULT -->
-
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-            <title>{Now and Then}</title>
-    <link rel="icon" href="{Favicon}"/>
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="{RSS}"/>
-    <meta name="viewport" content="width=600"/> <!-- iPhone -->
-    {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
-
- 
-
 </head>
+<body>
 
+    {{ content }}
+
+</body>
+</html>
               
 
     {block:IfEndlessScrolling}
