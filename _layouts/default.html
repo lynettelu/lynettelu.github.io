@@ -1,53 +1,444 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <!--
-    * Author:         BeiYuu
-    -->
-    <meta charset="utf-8" />
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="author" content="BieYuu" />
-    <meta name="description" content="BeiYuu's Blog" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="/css/default.css" type="text/css" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed }}" />
-    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
-</head>
-<body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-    <div class="home-menu">
-        <div class="home-icon-con">
-            <a class="home-menu-icon" href="/">BeiYuu</a>
-            <a class="home-follow" href="#" title="Contact Me">+</a>
-        </div>
-        <div class="home-contact">
-            <a href="http://weibo.com/beiyuu/" target="_blank" style="margin-left:-5px;"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
-            <a href="http://www.douban.com/people/beiyuu/" target="_blank" style="text-align:center;"><img src="http://www.douban.com/favicon.ico" alt="" width="22"/></a>
-            <a href="http://instagram.com/beiyuu/" target="_blank" style="text-align:right"><img src="http://d36xtkk24g8jdx.cloudfront.net/bluebar/00c6602/images/ico/favicon.ico" alt="" width="22"/></a>
-        </div>
-    </div>
 
-    {{ content }}
+  <head>
 
-    <!--*********************************************************-->
-    <!--****** 宝贝儿，看见这个时候，删掉下面的统计代码哦~ ******-->
-    <!--************* 再推荐下我的第一篇博客哦~~ ****************-->
-    <!--*********************************************************-->
+        <!-- DEFAULT -->
+        <meta name="color:Background" content="#fff"/>
+        <meta name="color:Title" content="#333333"/>
+        <meta name="color:Description" content="#BBBBBB"/>
+        <meta name="color:Text" content="#444"/>
+        <meta name="color:Inline Link" content="#7A7A7A"/>
+        <meta name="color:Inline Link Hover" content="#FCB310"/>
 
-    
+
+        <meta name="font:Title" content="Helvetica Neue"/>
+        <meta name="font:Body" content="Helvetica Neue"/>
+        <meta name="image:Header" content=""/>
+        <meta name="image:Background" content=""/> 
+        <meta name="text:Disqus Shortname" content="" />
+        <meta name="if:Show people I follow" content="0"/> 
+        <meta name="if:Show ask sidebar" content="0"/> 
+        <meta name="if:Endless scrolling" content="0">
+
+
+        <meta name="text:Facebook Shortname" content="" />
+        <meta name="text:Myspace Shortname" content="" />
+        <meta name="text:LastFm Shortname" content="" />
+        <meta name="text:Twitter Shortname" content="" />
+        <meta name="text:Flickr Shortname" content="" />
+        <meta name="text:Vimeo Shortname" content="" />
+        <meta name="text:Youtube Shortname" content="" />
+        <meta name="text:Delicious Shortname" content="" />
+        <meta name="text:Digg Shortname" content="" />
+        <meta name="text:Formspring Shortname" content="" /> 
+        <meta name="if:Show post dividers" content="1"/>
+      
+        <!-- END DEFAULT -->
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+            <title>{Title}</title>
+    <link rel="icon" href="{Favicon}"/>
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{RSS}"/>
+    <meta name="viewport" content="width=600"/> <!-- iPhone -->
+    {block:Description}<meta name="description" content="{MetaDescription}" />{/block:Description}
+
+
+
+
+
+        <style type="text/css">
+              
+
+    {block:IfEndlessScrolling}
+    {block:IndexPage}
+    <script type="text/javascript" src="http://static.tumblr.com/xequfu2/WX8m0sdn0/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="http://static.tumblr.com/thpaaos/sZQkv2j7g/infinitescroll.js"></script>
     <script type="text/javascript">
-        $(function(){
-            $('.home-follow').click(function(e){
-                e.preventDefault();
-
-                if($('.home-contact').is(':visible')){
-                    $('.home-contact').slideUp(100);
-                }else{
-                    $('.home-contact').slideDown(100);
-                }
-            });
-        })
+    var jQis = jQuery.noConflict();
+    jQis(function($){
+        // Infinite Scroll plugin
+        // copyright: Paul Irish &amp; dirkhaim
+        // license: cc-wrapped GPL : http://creativecommons.org/licenses/GPL/2.0/
+        $('ul.allposts').infinitescroll({
+            debug           : false,
+            nextSelector    : "div#nav a#next_page",
+            loadingImg      : "http://static.tumblr.com/xequfu2/HfMm0sdj7/loader.gif",
+            text            : "",
+            donetext        : "{lang:No more posts}.",
+            navSelector     : "div#nav",
+            contentSelector : "#posts",
+            itemSelector    : "#posts > .postwrapper"
+        });
+    });
     </script>
-</body>
+    {/block:IndexPage}
+    {/block:IfEndlessScrolling}
+</head>
+
+
+    </head>
+    <body>
+
+        
+        <div id="content">
+
+<div id="sidebar">
+
+
+                 <div id="search">
+                    <form method="get" action="/search">
+                    <input type="text" value="{SearchQuery}" name="q"/>
+                    </form>
+                 </div>
+        <div id="sidebar1">     
+    <a href="/"><div id="home"></div></a>
+    <a href="/random"><div id="random"></div></a>
+    <a href="/archive"><div id="archive"></div></a>
+    <a href="{RSS}"><div id="rss"></div></a>
+    {block:IfShowAskSidebar}
+    <a href="/ask"><div id="ask"></div></a>
+    {/block:IfShowAskSidebar}
+    {block:IfShowSubmitSidebar}
+    <a href="/submit"><div id="submit"></div></a>
+    {/block:IfShowSubmitSidebar}
+   
+ 
+   {block:IfFacebookShortname}
+           <a href="http://facebook.com/{text:Facebook Shortname}"><div id="facebook"></div></a>     
+    {/block:IfFacebookShortname}
+        {block:IfMyspaceShortname}
+     <a href="http://myspace.com/{text:Myspace Shortname}"><div id="myspace"></div></a>    
+    {/block:IfMyspaceShortname}
+        {block:IfLastFmShortname}
+     <a href="http://last.fm/user/{text:LastFm Shortname}"><div id="last"></div></a>  
+    {/block:IfLastFmShortname}
+        {block:IfTwitterShortname}
+     <a href="http://twitter.com/{text:Twitter Shortname}"><div id="twitter"></div></a>    
+    {/block:IfTwitterShortname}
+        {block:IfFlickrShortname}
+     <a href="http://flickr.com/{text:Flickr Shortname}"><div id="flickr"></div></a>   
+    {/block:IfFlickrShortname}
+        {block:IfVimeoShortname}
+     <a href="http://vimeo.com/{text:Vimeo Shortname}"><div id="vimeo"></div></a>       
+    {/block:IfVimeoShortname}
+        {block:IfYoutubeShortname}
+     <a href="http://youtube.com/{text:Youtube Shortname}"><div id="youtube"></div></a>     
+    {/block:IfYoutubeShortname}
+        {block:IfDeliciousShortname}
+     <a href="http://delicious.com/{text:Delicious Shortname}"><div id="delicious"></div></a>  
+    {/block:IfDeliciousShortname}
+            {block:IfDiggShortname}
+     <a href="http://digg.com/{text:Digg Shortname}"><div id="digg"></div></a>   
+    {/block:IfDiggShortname}
+            {block:IfFormspringShortname}
+     <a href="http://formspring.me/{text:Formspring Shortname}"><div id="formspring"></div></a>   
+    {/block:IfFormspringShortname}
+ 
+
+
+
+
+
+
+          <div class="pages">
+             {block:HasPages}
+                    <div class="sidebar-bottom">
+             <img src="http://static.tumblr.com/xequfu2/gOMkzd2on/sidebar_bottom.png"/>
+           </div>
+         <div id="pages_nav"></div> 
+               {block:Pages} 
+              <div id="blank"><ol class="pages"><li><a href="{URL}">&#32;{Label}</a></li></ol></div>
+               {/block:Pages}
+             {/block:HasPages}
+           </div>
+
+     
+        {block:IfShowPeopleIFollow}
+        {block:Following}
+          <div id="following">
+            {block:Followed}<a href="{FollowedURL}"><img src="{FollowedPortraitURL-40}" /></a>{/block:Followed}
+          </div>
+        {/block:Following} 
+        {/block:IfShowPeopleIFollow}
+</div> 
+
+
+            
+
+            </div>
+
+         <div id="posts">
+{block:Posts}
+            <div class="postwrapper">
+                <div class="post">
+                        
+                    <div class="column right">
+                        <div class="content">
+                            {block:Photo}
+                            <div class="post photo">
+				<div class="postinfo">
+					<a href="{permalink}" class="type">Photo Post</a></div>
+                                {LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}" {block:HighRes}style="margin: 0 0 2px 0"{/block:HighRes}>{LinkCloseTag}
+                                {block:HighRes}<small class="high_res"><a href="{PhotoURL-HighRes}" target="_blank">{lang:View high resolution} <div class="download"></div></a></small>{/block:HighRes}
+                            {block:Caption}
+                                <div class="caption">{Caption}</div>
+                            {/block:Caption}
+                            </div>
+                            {/block:Photo}
+
+                             {block:Photoset}
+             <div class="post photoset">
+				<div class="postinfo">
+					<a href="{permalink}" class="type">Photoset Post</a></div>
+  				{Photoset-500}
+				{block:Caption}
+                                <div class="caption">{Caption}</div>
+                            {/block:Caption}
+				</div>
+  			{/block:Photoset}
+
+
+                                                {block:Video}
+                    <div class="post video">
+				<div class="postinfo">
+					<a href="{permalink}" class="type">Vid Post</a></div>
+                            {Video-500}
+                            {block:Caption}
+                                <div class="caption">{Caption}</div>
+                            {/block:Caption}
+                        </div>
+                    {/block:Video}
+
+
+                   {block:Audio}
+	
+	<div class="stat-audio">
+	<div class="postinfo">
+					<a href="{permalink}" class="type">Audio Post</a></div>		
+			<div class="stat-audio-wrapper">
+                    <div class="stat-audio-left">
+					<div class="stat-audio-player">{AudioPlayerBlack}</div>
+					<div class="stat-audio-play-count">{FormattedPlayCount} Plays{block:ExternalAudio} <a href="{ExternalAudioURL}" class="stat-audio-download">&rarr;</a>{/block:ExternalAudio}</div>
+					{block:Artist}<div class="stat-audio-artist">{Artist}</div>{/block:Artist}
+					{block:TrackName}<div class="stat-audio-song">{TrackName}</div>{/block:TrackName}
+<div class="stat-audio-caption">{Caption}</div>			
+				</div>
+				
+                        {block:AlbumArt}
+                            <div class="album_case"></div>
+                            <img src="{AlbumArtURL}" class="album_art" />
+                         {/block:AlbumArt}	
+				
+				<div class="stat-clear"></div>
+			</div>
+	</div>
+	{/block:Audio}
+
+
+
+
+                  {block:Link}
+                    <div class="post link">
+				<div class="postinfo">
+					<a href="{permalink}" class="type">Link Post</a></div>
+                            <h2><a href="{URL}" class="link" {Target}>{Name}</a></h2>
+                            {block:Description}
+                                <span class="description">{Description}</span>
+                            {/block:Description}
+                        </div>
+                    {/block:Link}
+
+                            {block:Quote}
+                    <div class="post quote">
+				<div class="postinfo">
+					<a href="{permalink}" class="type">Quote Post</a></div>
+                            <div class="quote_text"><span class="{Length}">{Quote}</span></div>
+                            {block:Source}
+                                <div class="source">&mdash; {Source}</div>
+                            {/block:Source}
+                        </div>
+                    {/block:Quote}
+
+
+                                              {block:Text}
+                        <div class="post text">
+				<div class="postinfo">
+					<a href="{permalink}" class="type">Text Post</a></div>
+                            {block:Title}<h2><a href="{Permalink}">{Title}</a></h2>{/block:Title}
+                            <p>{Body}</p>
+                        </div>
+                    {/block:Text}
+
+                            {block:Chat}
+                    <div class="post chat">
+				<div class="postinfo">
+					<a href="{permalink}" class="type">Chat Post</a></div>
+                            {block:Title}
+                                <h2><a href="{Permalink}">{Title}</a></h2>
+                            {/block:Title}
+                            <ul>
+                                {block:Lines}
+                                    <li class="{Alt}">
+                                        {block:Label}
+                                            <span class="label user_{UserNumber}">{Label}</span>
+                                        {/block:Label}
+                                        {Line}
+                                    </li>
+                                {/block:Lines}
+                            </ul>
+                        </div>
+                    {/block:Chat}
+
+        {block:Answer}          
+  		    <div class="answer">
+ <div class="postinfo">
+					<a href="{permalink}" class="type">Vid Post</a></div>
+ 		    
+  		      <div class="answer-question">
+  		        <div class="answer-label">Q</div>
+  		        <div class="body">
+    		        {Question}
+  		        </div>
+  		        <div class="answer-asker post-{PostID}">
+                </div>
+  		          <div class="answer-asker">from:{Asker}</div>
+  		        <div class="clear"></div>
+  		      </div>
+  		      
+  		      <div class="answer-answer">
+    	        <div class="answer-label">A</div>
+    		      <div class="body">
+    		        {Answer}
+    		      </div>
+  		      </div>
+  		    
+  		    </div>
+        {/block:Answer}
+
+                            <div class="clear"></div>
+                        </div>
+
+                    </div>
+                </div>
+                {block:IndexPage}<div class="divider"></div>{/block:IndexPage}
+                
+          <div class="datetime">
+            Posted <a href="{Permalink}" class="permalink">{Month} {DayOfMonth}, {Year} at {12Hour}:{Minutes}{AmPm}</a> {block:HasTags}in {block:Tags}<a href="{TagURL}">{Tag}</a> {/block:Tags}{/block:HasTags}
+            {block:Pagination}
+            {block:NoteCount} | 
+            <a href="{Permalink}">{NoteCountWithLabel}</a>{/block:NoteCount} <br />
+            {/block:Pagination}
+            {block:SearchPage} | 
+             {block:NoteCount}& 
+            <a href="{Permalink}">{NoteCountWithLabel}</a>{/block:NoteCount} <br />
+            {/block:SearchPage}
+            {block:PermalinkPage} 
+            {block:NoteCount} | 
+            <a href="{Permalink}">{NoteCountWithLabel}</a>{/block:NoteCount}<br />
+            {/block:PermalinkPage}
+          </div>
+
+
+<!--{block:PermalinkPage}-->
+
+<!--{block:PostNotes}--> 
+
+<p id="note">{PostNotes}</p>
+
+<!--{/block:PostNotes}-->   
+
+<!--{/block:PermalinkPage}-->
+
+<div class="disqus">
+{block:IfDisqusShortname}<a class="stat-disqus" href="{Permalink}#disqus_thread">Comments</a>{/block:IfDisqusShortname}
+</div>  
+      
+{block:IfShowPostDividers}
+  <div class="post-bottom">
+
+   <img src="http://static.tumblr.com/xequfu2/sXBkzd2nw/post_bottom.png"/>
+
+   </div>
+{/block:IfShowPostDividers}
+
+            </div>
+        {/block:Posts}
+</div>
+
+{block:IfDisqusShortname}
+{block:PermalinkPage}
+<script type="text/javascript">var disqus_url = "{Permalink}"; var disqus_title ="{block:PostTitle}{PostTitle}{/block:PostTitle}";</script>{block:Permalink}<div id="disqus_thread"></div>
+<script type="text/javascript">
+  /**
+    * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
+    */
+  (function() {
+   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+   dsq.src = 'http://{text:Disqus Shortname}.disqus.com/embed.js';
+   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript={text:Disqus Shortname}">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+{/block:Permalink}<script type="text/javascript">
+var disqus_shortname = '{text:Disqus Shortname}';
+(function () {
+  var s = document.createElement('script'); s.async = true;
+  s.src = 'http://disqus.com/forums/{text:Disqus Shortname}/count.js';
+  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+{/block:PermalinkPage}
+{/block:IfDisqusShortname}
+
+			<div id="nav">
+			
+
+			
+				{block:Pagination}
+					{block:PreviousPage}
+						<a id="prev_page" href="{PreviousPage}">&#171; Previous</a> —
+					{/block:PreviousPage}
+					{CurrentPage} of {TotalPages}
+					{block:NextPage}
+						— <a id="next_page" href="{NextPage}">Next &#187;</a>
+					{/block:NextPage}
+				{/block:Pagination}
+				
+				
+				{block:PermalinkPagination}
+					{block:PreviousPost}
+						<a id="prev_post" href="{PreviousPost}">&#171; Previous</a>
+					{/block:PreviousPost}
+					—
+					{block:NextPost}
+						<a id="next_post" href="{NextPost}">Next &#187;</a>
+					{/block:NextPost}
+				{/block:PermalinkPagination}
+			</div>
+
+			{block:IfNotEndlessScrolling}
+
+			    <div id="credit">
+                   <a href="http://ultralite.tumblr.com">Ultralite</a> Powered by <a href="http://www.tumblr.com/"
+                    target="_blank">Tumblr</a>
+                   | Designed by:<a href="http://doinwork.tumblr.com/"
+                    target="_blank">Doinwork</a> 
+                </div>
+                
+			{/block:IfNotEndlessScrolling}
+
+
+            </div>
+        </div>
+{block:IfEndlessScrolling}
+<div class="credit-x">
+<a href="http://blog.doinwork.com"><img src="http://static.tumblr.com/xequfu2/Gmim0schb/mini-do-wrk.png"></a>
+</div>
+{/block:IfEndlessScrolling}
+    </body>
 </html>
