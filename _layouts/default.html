@@ -19,38 +19,7 @@
 </html>
               
 
-    {block:IfEndlessScrolling}
-    {block:IndexPage}
-    <script type="text/javascript" src="http://static.tumblr.com/xequfu2/WX8m0sdn0/jquery-1.7.min.js"></script>
-    <script type="text/javascript" src="http://static.tumblr.com/thpaaos/sZQkv2j7g/infinitescroll.js"></script>
-    <script type="text/javascript">
-    var jQis = jQuery.noConflict();
-    jQis(function($){
-        // Infinite Scroll plugin
-        // copyright: Paul Irish &amp; dirkhaim
-        // license: cc-wrapped GPL : http://creativecommons.org/licenses/GPL/2.0/
-        $('ul.allposts').infinitescroll({
-            debug           : false,
-            nextSelector    : "div#nav a#next_page",
-            loadingImg      : "http://static.tumblr.com/xequfu2/HfMm0sdj7/loader.gif",
-            text            : "",
-            donetext        : "{lang:No more posts}.",
-            navSelector     : "div#nav",
-            contentSelector : "#posts",
-            itemSelector    : "#posts > .postwrapper"
-        });
-    });
-    </script>
-    {/block:IndexPage}
-    {/block:IfEndlessScrolling}
-</head>
-
-
-    </head>
-    <body>
-
-        
-        <div id="content">
+<div id="content">
 
 <div id="sidebar">
 
@@ -65,52 +34,8 @@
     <a href="/random"><div id="random"></div></a>
     <a href="/archive"><div id="archive"></div></a>
     <a href="{RSS}"><div id="rss"></div></a>
-    {block:IfShowAskSidebar}
-    <a href="/ask"><div id="ask"></div></a>
-    {/block:IfShowAskSidebar}
-    {block:IfShowSubmitSidebar}
-    <a href="/submit"><div id="submit"></div></a>
-    {/block:IfShowSubmitSidebar}
    
- 
-   {block:IfFacebookShortname}
-           <a href="http://facebook.com/{text:Facebook Shortname}"><div id="facebook"></div></a>     
-    {/block:IfFacebookShortname}
-        {block:IfMyspaceShortname}
-     <a href="http://myspace.com/{text:Myspace Shortname}"><div id="myspace"></div></a>    
-    {/block:IfMyspaceShortname}
-        {block:IfLastFmShortname}
-     <a href="http://last.fm/user/{text:LastFm Shortname}"><div id="last"></div></a>  
-    {/block:IfLastFmShortname}
-        {block:IfTwitterShortname}
-     <a href="http://twitter.com/{text:Twitter Shortname}"><div id="twitter"></div></a>    
-    {/block:IfTwitterShortname}
-        {block:IfFlickrShortname}
-     <a href="http://flickr.com/{text:Flickr Shortname}"><div id="flickr"></div></a>   
-    {/block:IfFlickrShortname}
-        {block:IfVimeoShortname}
-     <a href="http://vimeo.com/{text:Vimeo Shortname}"><div id="vimeo"></div></a>       
-    {/block:IfVimeoShortname}
-        {block:IfYoutubeShortname}
-     <a href="http://youtube.com/{text:Youtube Shortname}"><div id="youtube"></div></a>     
-    {/block:IfYoutubeShortname}
-        {block:IfDeliciousShortname}
-     <a href="http://delicious.com/{text:Delicious Shortname}"><div id="delicious"></div></a>  
-    {/block:IfDeliciousShortname}
-            {block:IfDiggShortname}
-     <a href="http://digg.com/{text:Digg Shortname}"><div id="digg"></div></a>   
-    {/block:IfDiggShortname}
-            {block:IfFormspringShortname}
-     <a href="http://formspring.me/{text:Formspring Shortname}"><div id="formspring"></div></a>   
-    {/block:IfFormspringShortname}
- 
-
-
-
-
-
-
-          <div class="pages">
+<div class="pages">
              {block:HasPages}
                     <div class="sidebar-bottom">
              <img src="http://static.tumblr.com/xequfu2/gOMkzd2on/sidebar_bottom.png"/>
@@ -122,20 +47,6 @@
              {/block:HasPages}
            </div>
 
-     
-        {block:IfShowPeopleIFollow}
-        {block:Following}
-          <div id="following">
-            {block:Followed}<a href="{FollowedURL}"><img src="{FollowedPortraitURL-40}" /></a>{/block:Followed}
-          </div>
-        {/block:Following} 
-        {/block:IfShowPeopleIFollow}
-</div> 
-
-
-            
-
-            </div>
 
          <div id="posts">
 {block:Posts}
