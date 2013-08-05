@@ -12,7 +12,13 @@ layout: home
 
         <div class="cate-bar"><span id="cateBar"></span></div>
 
-you can [get the portfolio]({{ site.url }}/downloads/Lynette Lu's Portfolio.jpg) directly.
+<body>
+<h1>
+
+You can [get the PDF]({{ site.url }}/downloads/Lynette Lu's Portfolio.jpg)
+
+</h1>
+</body>
        
        
            </div>
