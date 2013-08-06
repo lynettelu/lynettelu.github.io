@@ -22,7 +22,8 @@ ol.linenums{margin-top:0;margin-bottom:0;}
 li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9{color:#555;}
 li.L1, li.L3, li.L5, li.L7, li.L9{background:#111;}
 img:hover {
-
+             border: 1px solid #a9a9a9;
+             padding: 4px;
              -moz-box-shadow: 2px 3px 4px rgba(0, 0, 0, .4);
              box-shadow: 2px 3px 4px rgba(0, 0, 0, .4);
              -webkit-box-shadow: 2px 3px 4px rgba(0, 0, 0, .4);
