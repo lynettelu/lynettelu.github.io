@@ -25,13 +25,7 @@ img {padding: 4px;}
 img:hover {
              border: 1px solid #a9a9a9;
              padding: 3px;
-             -moz-box-shadow: 2px 3px 4px rgba(0, 0, 0, .4);
-             box-shadow: 2px 3px 4px rgba(0, 0, 0, .4);
-             -webkit-box-shadow: 2px 3px 4px rgba(0, 0, 0, .4);
-             -webkit-transition: all .3s ease-out;
-             -moz-transition: all .3s ease-out;
-             -o-transition: all .3s ease-out;
-             transition: all .3s ease-out;
+          
          }
 @media print {
     .str{color:#060;}
