@@ -21,6 +21,16 @@ ol.linenums{margin-top:0;margin-bottom:0;}
 .prettyprint{background:#000;}
 li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9{color:#555;}
 li.L1, li.L3, li.L5, li.L7, li.L9{background:#111;}
+img:hover {
+
+             -moz-box-shadow: 2px 3px 4px rgba(0, 0, 0, .4);
+             box-shadow: 2px 3px 4px rgba(0, 0, 0, .4);
+             -webkit-box-shadow: 2px 3px 4px rgba(0, 0, 0, .4);
+             -webkit-transition: all .3s ease-out;
+             -moz-transition: all .3s ease-out;
+             -o-transition: all .3s ease-out;
+             transition: all .3s ease-out;
+         }
 @media print {
     .str{color:#060;}
     .kwd{color:#006;font-weight:bold;}
