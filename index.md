@@ -6,7 +6,7 @@ layout: home
     <div class="section">
     <div class="header">
      <h1><a href="/">Everland</a></h1>
-     <h2>You can't be anyone else but yourself.</h2>
+     <h2>Out of the Great Sea to Middle Earth I am come.</h2>
    </div>
         <ul class="artical-cate">        
             <li class="on"><a href="/"><span>Blog</span></a></li>
