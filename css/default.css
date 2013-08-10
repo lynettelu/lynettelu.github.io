@@ -125,12 +125,14 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 
 .section {
     margin-top: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
+    padding-top: 80px;
+    padding-bottom: 100px;
     width: 850px;
     border: 7px solid #333;
 }
 
-.index-content .artical-list { width:100%; margin:0 auto;  }
+.index-content .artical-list { width:80%; margin:0 auto;  }
 .index-content .artical-list li { margin:50px;}
 .index-content h2 { font-size:20px; margin-bottom:15px; }
 .index-content h2 a { color:#444 }
