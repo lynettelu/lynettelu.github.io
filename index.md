@@ -2,12 +2,17 @@
 layout: home
 ---
 
-<div class="header">
- <h1><a href="/"> Everland </a></h1>
- <h2>You can't be anyone else but yourself.</h2>
-</div>
+<div class="index-content blog">
+    <div class="section">
+        <ul class="artical-cate">        
+            <li class="on"><a href="/"><span>Blog</span></a></li>
+            <li style="text-align:center"><a href="/contact"><span>Contact</span></a></li>
+            <li style="text-align:right"><a href="/portfolio"><span>Portfolio</span></a></li>
+        </ul>
 
- <ul class="artical-list">
+        <div class="cate-bar"><span id="cateBar"></span></div>
+
+        <ul class="artical-list">
         {% for post in site.categories.blog %}
             <li>
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -15,12 +20,5 @@ layout: home
             </li>
         {% endfor %}
         </ul>
-    </div>
-    
-   <div class="aside">
-    <div id="sidebar">
-  <a href="/">Blog</a>
-  <a href="/contact">Contact</a>
-  <a href="/portfolio">Portfolio</a>
-</div>
-    </div>
+    </div>    
+                </div>
