@@ -94,7 +94,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 
           .header h2 {
                     font-family: {Font:Body};
-                    color:{color:Description}; 
+                    color:#c9c9c9 ; 
                     font-size:16px; 
                     font-weight:200; 
                     letter-spacing:-1px; 
@@ -123,8 +123,8 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .index-content .section { position:relative; margin: 0 auto; padding-top:20px; 
                           }
 
-.index-content .artical-list { width:50%; margin:0 auto;border: 3px solid ##333; }
-.index-content .artical-list li { margin-top: 200px; margin-bottom:70px; }
+.index-content .artical-list { width:50%; margin:0 auto; border: 3px solid ##333; }
+.index-content .artical-list li { margin:50px;}
 .index-content h2 { font-size:20px; margin-bottom:15px; }
 .index-content h2 a { color:#444 }
 .index-content h2 a:hover { color:#FCB310; text-decoration:none; }
