@@ -4,6 +4,10 @@ layout: home
 
 <div class="index-content blog">
     <div class="section">
+    <div class="header">
+     <h1><a href="/">Everland</a></h1>
+     <h2>You can't be anyone else but yourself.</h2>
+   </div>
         <ul class="artical-cate">        
             <li class="on"><a href="/"><span>Blog</span></a></li>
             <li><a href="/contact"><span>Contact</span></a></li>
