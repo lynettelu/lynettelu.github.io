@@ -4,11 +4,11 @@ layout: home
 
 <div class="index-content blog">
     <div class="section">
-        <ul class="artical-cate">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/contact">Contact</a></li>
-  <li><a href="/portfolio">Portfolio</a></li>
-           
+        <ul class="artical-cate">        
+            <li class="on"><a href="/"><span>Blog</span></a></li>
+            <li style="text-align:center"><a href="/contact"><span>Contact</span></a></li>
+            <li style="text-align:right"><a href="/portfolio"><span>Portfolio</span></a></li>
+        </ul>
 
         <div class="cate-bar"><span id="cateBar"></span></div>
 
