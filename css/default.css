@@ -120,7 +120,8 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .entry img{max-width:670px;display:block;margin:10px auto;}
 
 
-.index-content .section { position:relative; margin: 0 auto; padding-top:20px; border: solid 3px ##333;}
+.index-content .section { position:relative; margin: 0 auto; padding-top:20px; 
+                          border: 3px solid ##333;}
 
 .index-content .artical-list { width:50%; margin:0 auto;float: left; }
 .index-content .artical-list li { margin-bottom:70px; }
