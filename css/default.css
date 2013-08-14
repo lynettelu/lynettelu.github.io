@@ -70,8 +70,8 @@ pre ol{margin-left:25px;list-style-type:decimal;}
               }
           .header h1 {
                     line-height:106px; 
-                    font-size:100px; 
-                    font-weight:100; 
+                    font-size:80px; 
+                    font-weight:200; 
                     letter-spacing:-2px;        
                     text-transform:uppercase; 
                     text-align: center;
@@ -95,7 +95,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
           .header h2 {
                     font-family: {Font:Body};
                     color:#c9c9c9 ; 
-                    font-size:16px; 
+                    font-size:20px; 
                     font-weight:200; 
                     letter-spacing:-1px; 
                     line-height:22px; 
