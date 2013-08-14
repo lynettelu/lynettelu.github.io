@@ -70,9 +70,8 @@ pre ol{margin-left:25px;list-style-type:decimal;}
               }
           .header h1 {
                     line-height:106px; 
-                    font-size:80px; 
-                    font-weight:200; 
-                    letter-spacing:-2px;        
+                    font-size:70px; 
+                    font-weight:200;        
                     text-transform:uppercase; 
                     text-align: center;
                     z-index:-1;
@@ -95,9 +94,8 @@ pre ol{margin-left:25px;list-style-type:decimal;}
           .header h2 {
                     font-family: {Font:Body};
                     color:#c9c9c9 ; 
-                    font-size:20px; 
-                    font-weight:200; 
-                    letter-spacing:-1px; 
+                    font-size:25px; 
+                    font-weight:100; 
                     line-height:22px; 
                     text-align:center; 
                     margin-left:-15px; 
@@ -144,8 +142,9 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .index-content h2 a:hover { color:#FCB310; text-decoration:none; }
 .index-content .title-desc {color:#999;font-size:14px;line-height:1.6em;}
 
-.index-content .artical-cate { width:100px; padding-bottom: 80px;float: right;}
-.index-content .artical-cate li { display:block; zoom:1; font-size:18px; width:100px; cursor:pointer; }
+.index-content .artical-cate { width:100px; padding-bottom: 80px;float: right;
+                               position: fixed;}
+.index-content .artical-cate li { display:block; zoom:1; font-size:20px; width:100px; cursor:pointer; }
 .index-content .artical-cate li a,
 .index-content .artical-cate li a:visited { display:block; zoom:1; color:#000; width:100%; }
 .index-content .artical-cate li a:hover { text-decoration:none; }
