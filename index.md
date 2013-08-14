@@ -5,8 +5,8 @@ layout: home
 <div class="index-content blog">
     <div class="section">
     <div class="header">
-     <h1><a href="/">Everland</a></h1>
-     <h2>Out of the Great Sea to Middle Earth I am come.</h2>
+     <h1><a href="/">Across the universe</a></h1>
+     <h2>We’re all stories, in the end.</h2>
    </div>
         <ul class="artical-cate">        
             <li class="on"><a href="/"><span>Blog</span></a></li>
