@@ -28,7 +28,7 @@ body .hide{display:none;}
 
 
 /***********default settings**********/
-body {font-family: "微软雅黑","Arial","Helvetica","sans-serif";font-size:16px;}
+body {font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;font-size:16px;}
 a {color:#FCB310;text-decoration:none;outline:none;}
 a:link, a:visited {
     color:{color:Inline Link};
