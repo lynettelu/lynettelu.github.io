@@ -4,25 +4,25 @@ layout: home
 
 <div class="index-content blog">
     <div class="section">
-    <div class="section2"
+    <div class="section2">
     <div class="header">
      <h1><a href="/">Across the universe</a></h1>
      <h2>We’re all stories, in the end.</h2>
    </div>
-        <div ul class="artical-cate">        
+        <ul class="artical-cate">        
             <li class="on"><a href="/"><span>Blog</span></a></li>
             <li><a href="/contact"><span>Contact</span></a></li>
             <li><a href="/portfolio"><span>Portfolio</span></a></li>
-        </ul></div>
+        </ul>
 
-        <div ul class="artical-list">
+        <ul class="artical-list">
         {% for post in site.categories.blog %}
             <li>
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <div class="title-desc">{{ post.description }}</div>              
             </li>
         {% endfor %}
-        </ul></div>
+        </ul>
     </div> 
      </div>  
        
