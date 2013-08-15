@@ -141,7 +141,8 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     border: 2px solid #333;
 }
 
-.index-content .artical-list { width:80%; margin:60px auto;  }
+.index-content .artical-list { width:80%; margin:60px auto;
+                               margin-right: 110px;  }
 .index-content .artical-list li { margin-left:30px;
                                   margin-right: 30px;
                                   margin-top: 50px;
