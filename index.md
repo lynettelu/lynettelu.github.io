@@ -4,7 +4,7 @@ layout: home
 
 <div class="index-content blog">
     <div class="section">
-    <div class="section2"
+    <div class="section2">
     <div class="header">
      <h1><a href="/">Across the universe</a></h1>
      <h2>We’re all stories, in the end.</h2>
@@ -23,11 +23,10 @@ layout: home
             </li>
         {% endfor %}
         </ul>
-    <div id="credit">
-     Designed by Lynette Lu
-     </div>
-        
-    </div> 
+        </div> 
      </div>  
+        <div id="credit">
+     Designed by Lynette Lu
+ </div>    
        
   </div>
