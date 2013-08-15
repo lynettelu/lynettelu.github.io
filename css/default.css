@@ -53,7 +53,7 @@ a.external:hover {background-position:right -15px;}
 .entry-title a:hover {text-decoration:none;}
 .entry-date {text-align:center;color:#999;margin-bottom:60px;font-size:14px;}
 
-h2 {font-size:22px;font-weight:bold;margin-bottom:25px;}
+h2 {font-size:22px;font-weight:;margin-bottom:25px;}
 h3 {font-size:18px;font-weight:bold;margin-bottom:25px;}
 h4,h5,h6 {font-weight:bold;margin-bottom:15px;}
 p {margin-bottom:40px;line-height:1.8em;}
@@ -128,18 +128,15 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     margin-bottom: 120px;
     margin-right: auto;
     padding-top: 80px;
-    padding-bottom: 100px;
+    padding-bottom: 3px;
     width: 850px;
     border: 6px solid #333;
 }
 
 .section2 {
-    margin-top: 110px;
+    margin-top: -16px;
     margin-left: auto;
-    margin-bottom: 150px;
     margin-right: auto;
-    padding-top: 80px;
-    padding-bottom: 100px;
     width: 840px;
     border: 2px solid #333;
 }
@@ -155,7 +152,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
 .index-content .title-desc {color:#999;font-size:14px;line-height:1.6em;}
 
 .index-content .artical-cate { width:100px; padding-bottom: 80px;float: right;
-                               position: fixed;}
+                               }
 .index-content .artical-cate li { display:block; zoom:1; font-size:20px; width:100px; cursor:pointer; }
 .index-content .artical-cate li a,
 .index-content .artical-cate li a:visited { display:block; zoom:1; color:#000; width:100%; }
