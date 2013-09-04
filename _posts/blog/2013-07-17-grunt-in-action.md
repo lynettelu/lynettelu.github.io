@@ -14,6 +14,8 @@ category: blog
 为什么要使用Grunt，简而言之是为了“自动”，用工具自动完成压缩、编译、单元测试、拼写检查等重复性工作。
 
 Grunt的社区壮大非常快，现在支持的模块有：[CoffeeScript][1]、 [handlerbars][2]、 [jade][3]、 [JSHint][4]、 [Less][5]、 [RequireJS][6]、 [Sass][7]、 [stylus][8]等。
+ 
+ <!--more-->
 
 ##Grunt基本配置
 

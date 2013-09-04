@@ -5,6 +5,8 @@ pygments: true
 paginate: 8
 permalink: /:title
 
+excerpt_separator:  <!--more-->
+
 title: Across the universe
 url: http://lynettelu.github.io
 feed: /atom.xml
