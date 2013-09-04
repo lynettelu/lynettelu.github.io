@@ -123,13 +123,13 @@ pre ol{margin-left:25px;list-style-type:decimal;}
                           }
 
 .section {
-    margin-top: 80px;
+    margin-top: 60px;
     margin-left: auto;
     margin-bottom: 20px;
     margin-right: auto;
     padding-top: 80px;
     padding-bottom: 3px;
-    width: 850px;
+    width: 1000px;
     border: 6px solid #333;
 }
 
@@ -137,7 +137,7 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     margin-top: -16px;
     margin-left: auto;
     margin-right: auto;
-    width: 840px;
+    width: 990px;
     border: 2px solid #333;
 }
 
