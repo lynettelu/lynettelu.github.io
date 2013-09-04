@@ -7,7 +7,7 @@ layout: home
     <div class="section2">
     <div class="header">
      <h1><a href="/">Across the universe</a></h1>
-     <h2>We’re all stories, in the end.</h2>
+     <h2>Look at the stars, look how they shine for you.</h2>
    </div>
         <ul class="artical-cate">        
             <li class="on"><a href="/"><span>Blog</span></a></li>
@@ -19,7 +19,7 @@ layout: home
         {% for post in site.categories.blog %}
             <li>
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                <div class="title-desc">{{ post.description }}</div>              
+                <div class="title-desc">{{ post.excerpt }}</div>              
             </li>
         {% endfor %}
         </ul>
