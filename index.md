@@ -20,7 +20,7 @@ layout: home
             <li>
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <div class="title-desc">{{ post.excerpt }}</div>   
-                <a href="{{ post.date }}"></p>
+                <p><a href="{{ post.url }}">Read more</a></p>
                       
             </li>
         {% endfor %}
