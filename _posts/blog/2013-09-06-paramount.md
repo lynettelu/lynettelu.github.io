@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Paramount/Canon in D
-category: post
+category: blog
 ---
 
 ![paramount](/images/paramount.png "Paramount")
