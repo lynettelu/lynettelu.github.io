@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Paramount/Canon in D
-category: project
+category: post
 ---
 
 ![paramount](/images/paramount.png "Paramount")
