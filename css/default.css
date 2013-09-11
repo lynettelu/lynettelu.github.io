@@ -117,7 +117,16 @@ img {
 .entry ul li{margin-bottom:5px;list-style:disc;line-height:1.8em;}
 .entry ol{margin-bottom:25px;margin-left:25px;}
 .entry ol li{margin-bottom:5px;list-style:decimal;line-height:1.1em;}
-.entry blockquote{margin-left:25px;font-size:14px;font-style:italic}
+.entry blockquote{
+    display: block;
+    line-height: 1.4;
+    text-align: center;
+    font-size: 18px;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
 .entry img{max-width:100%;display:block;margin:10px auto;}
 
 
@@ -168,7 +177,7 @@ blockquote {
     display: block;
     line-height: 1.4;
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 40px;
