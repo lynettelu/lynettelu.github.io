@@ -164,6 +164,12 @@ img {
 .index-content .artical-cate li a:visited { display:block; zoom:1; color:#000; width:100%; }
 .index-content .artical-cate li a:hover { text-decoration:none; }
 
+blockquote {
+    line-height: 1.4;
+    text-align: center;
+    font-size: 26px;
+}
+
 
 /***************Wiki Style*****************/
 .wiki h2{cursor:pointer;}
