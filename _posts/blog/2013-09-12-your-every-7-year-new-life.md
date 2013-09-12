@@ -4,7 +4,7 @@ title: Your every 7-year new life
 category: blog
 ---
 
-![chairs](/images/chairs.jpg "Chairs")
+![doors](/images/doors.jpg "Doors")
  
 有本畅销书叫做「一万小时天才理论」，大概的意思是讲，如果一个人要掌握某种能力，就必须花费一万个小时来学习、锻炼成为真正的天才。
 
