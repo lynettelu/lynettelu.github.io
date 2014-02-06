@@ -16,7 +16,8 @@ layout: home
         </ul>
 
         <ul class="artical-list">
-        <img src="/images/Lynette Lu's Portfolio.jpg" alt="Lynette Lu's Portfolio">
+        <a href="/images/Lynette Lu's Portfolio.jpg">
+<img src="/images/Lynette Lu's Portfolio.jpg" alt="Lynette Lu's Portfolio"></a>
                                     
         
    
