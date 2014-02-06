@@ -18,7 +18,7 @@ layout: home
         <ul class="artical-list">
         {% for post in site.categories.blog %}
             <li>
-                <h2><a href="{{ post.url }}">{{ post.title }}</a> | {{ post.date|date_to_xmlschema }}</h2>
+                <h2><a href="{{ post.url }}">{{ post.title }}</a> | {{ post.category }}</h2>
                                 <div class="title-desc">{{ post.excerpt }}</div>   
                                       
             </li>
