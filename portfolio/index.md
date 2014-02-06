@@ -16,13 +16,10 @@ layout: home
         </ul>
 
         <ul class="artical-list">
-        {% for post in site.categories.contact %}
-            <li>
-                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                                <div class="title-desc">{{ post.excerpt }}</div>   
-                                      
-            </li>
-        {% endfor %}
+        <a href="{{ /images/Lynette Lu's Portfolio.jpg }}">{{ /images/Lynette Lu's Portfolio.jpg }}</a></h2>
+                                    
+        
+   
         </ul>
         </div> 
      </div>  
