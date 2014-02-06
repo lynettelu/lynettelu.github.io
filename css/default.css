@@ -96,7 +96,7 @@ img {
 
           .header h2 {
                     font-family: {Font:Body};
-                    color:#c9c9c9 ; 
+                    color:#AAAAAA; 
                     font-size:25px; 
                     font-weight:100; 
                     line-height:22px; 
@@ -141,7 +141,7 @@ img {
     padding-top: 80px;
     padding-bottom: 3px;
     width: 1000px;
-    border: 4px solid #333;
+    border: 4px solid #333333;
 }
 
 .section2 {
@@ -149,7 +149,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 992px;
-    border: 1px solid #333;
+    border: 1px solid #333333;
 }
 
 .index-content .artical-list { width:80%; margin:60px auto;
