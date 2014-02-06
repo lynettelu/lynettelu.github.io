@@ -2,26 +2,32 @@
 layout: home
 ---
 
-<div class="index-content project">
+<div class="index-content blog">
     <div class="section">
-        <ul class="artical-cate">
-            <li><a href="/"><span>Blog</span></a></li>
-            <li style="text-align:center"><a href="/opinion"><span>Contact</span></a></li>
-            <li class="on" style="text-align:right"><a href="/project"><span>Portfolio</span></a></li>
+    <div class="section2">    
+    <div class="header">
+     <h1><a href="/">Across the universe</a></h1>
+     <h2>Look at the stars, look how they shine for you.</h2>
+   </div>
+        <ul class="artical-cate">        
+            <li class="on"><a href="/">Blog</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
         </ul>
 
-        <div class="cate-bar"><span id="cateBar"></span></div>
-
-<body>
-<h1>
-
-You can [get the PDF]({{ site.url }}/downloads/Lynette Lu's Portfolio.jpg)
-
-</h1>
-</body>
+        <ul class="artical-list">
+        {% for post in site.categories.contact %}
+            <li>
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                                <div class="title-desc">{{ post.excerpt }}</div>   
+                                      
+            </li>
+        {% endfor %}
+        </ul>
+        </div> 
+     </div>  
+        <div id="credit">
+     Designed by Lynette Lu
+ </div>    
        
-       
-           </div>
-    <div class="aside">
-    </div>
-</div>
+  </div>
