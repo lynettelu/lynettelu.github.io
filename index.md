@@ -21,8 +21,7 @@ layout: home
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
                 <div class="category">{{ post.category }}</div>
                 <div class="title-desc">{{ post.excerpt }}</div>   
-                <p><a href="{{ post.url }}">Read more</a></p>
-                      
+                                      
             </li>
         {% endfor %}
         </ul>
