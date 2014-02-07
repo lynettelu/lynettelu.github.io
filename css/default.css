@@ -31,7 +31,7 @@ body .hide{display:none;}
 body {font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;font-size:16px;}
 a {color:#FCB310;text-decoration:none;outline:none;}
 a:link, a:visited {
-    color:{color:Inline Link};
+    color:#FCB310;
     -webkit-transition: all .6s ease-out;
     -moz-transition: all .6s ease-out;
     -o-transition: all .6s ease-out;
@@ -39,7 +39,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-    color:{color:Inline Link Hover};
+    color:#FCB310;
     -webkit-transition: all .6s ease-out;
     -moz-transition: all .6s ease-out;
     -o-transition: all .6s ease-out;
