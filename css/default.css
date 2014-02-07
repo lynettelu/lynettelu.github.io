@@ -170,8 +170,12 @@ img {
                                   padding: 10px; float:left; border-top:1px solid #696969; border-bottom: 1px solid #696969;
                                 }
 .index-content .artical-cate li a,
-.index-content .artical-cate li a:visited { display:block; zoom:1; color:#696969; width:100%; }
+.index-content .artical-cate li a:visited { display:block; zoom:1; color:#696969; width:100%; font-weight: bold;}
 .index-content .artical-cate li a:hover { text-decoration:none; }
+
+.entry-list ul {
+    list-style: none;
+}
 
 blockquote {
     display: block;

@@ -14,17 +14,31 @@ layout: home
             <li><a href="/contact">Contact</a></li>
             <li><a href="/portfolio">Portfolio</a></li>
         </ul>
+        
+        <header class ="entry-header">
+        	<h2>About</h2>
+        </header>
+        	<ul class="entry-list">
+        		<li>∈ 女</li>
+        		<li>∈ 上海</li>
+        		<li>∈ 体验设计师</li>
+        		<li>∈ There are universes beneath your skin.</li>
+        	</ul>
+        	<h2>Find me @</h2>
+        	<ul class="entry-list">
+        		<li><a href="http://weibo.com/lynettel">新浪微博</a></li>
+        		<li><a href="http://www.douban.com/people/ll61/">豆瓣</a></li>
+        		<li><a href="https://twitter.com/Back2infinity">推特</a></li>
+        		<li><a href="http://pinterest.com/lynettelu/">Pinterest</a></li>
+            	</ul>
+            <h2>Contact</h2>
+        	<ul class="entry-list">
+        		<li>lynlu255#gmail.com</li>
 
-        <ul class="artical-list">
-        {% for post in site.categories.portfolio %}
-            <li>
-                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                                <div class="title-desc">{{ post.excerpt }}</div>   
-                                      
-            </li>
-        {% endfor %}
-        </ul>
-        </div> 
+            	</ul>
+        </header>
+
+               </div> 
      </div>  
         <div id="credit">
      Designed by Lynette Lu
