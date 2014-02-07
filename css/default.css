@@ -181,7 +181,8 @@ img {
 .entry-content {
     padding:20px;
     margin-left: 100px;
-
+    margin-bottom:50px;
+    margin-top:40px;
 }
 
 .entry-content ul {
