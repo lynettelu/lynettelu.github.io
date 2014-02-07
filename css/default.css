@@ -160,6 +160,7 @@ img {
                                   margin-bottom: 200px;}
 .index-content h2 { font-size:20px; margin-bottom:15px; }
 .index-content h2 a { color:#444 }
+.entry-list a { color:#444 }
 .index-content h2 a:hover { color:#FCB310; text-decoration:none; }
 .index-content .title-desc {color:#333333;font-size:16px;line-height:1.6em;}
 
@@ -167,16 +168,29 @@ img {
                             margin-right: 30px; text-align: center;
                                }
 .index-content .artical-cate li { display:inline-block; zoom:1; font-size:18px; font-weight:200; width:100px; cursor:pointer; 
-                                  padding: 10px; float:left; border-top:1px solid #696969; border-bottom: 1px solid #696969;
+                                  padding: 10px; float:left; border-top:1px solid #C7C7C7; border-bottom: 1px solid #C7C7C7;
                                 }
 .index-content .artical-cate li a,
-.index-content .artical-cate li a:visited { display:block; zoom:1; color:#696969; width:100%; font-weight: bold;}
+.index-content .artical-cate li a:visited { display:block; zoom:1; color:#696969; width:100%; }
 .index-content .artical-cate li a:hover { text-decoration:none; }
 
-.entry-list ul {
+.entry-content {
+    padding:20px;
+    margin-left: 100px;
+
+}
+
+.entry-content ul {
     list-style: none;
 }
 
+.entry-content li {
+    padding-bottom: 80px;
+}
+
+.entry-content li li {
+    padding:20px;
+}
 blockquote {
     display: block;
     line-height: 1.4;
