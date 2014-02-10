@@ -18,7 +18,7 @@ layout: home
         <ul class="artical-list">
         {% for post in site.posts limit:10 %}
             <li>
-                <h2><a href="{{ post.url }}">{{ post.title }}</a> | <a href="{{ post.category.url }}">{{ post.category }}</a></h2>
+                <h2><a href="{{ post.url }}">{{ post.title }}</a> | <a href="{{ /:categories }}">{{ post.category }}</a></h2>
                                 <div class="title-desc">{{ post.excerpt }}</div>   
                                       
             </li>
