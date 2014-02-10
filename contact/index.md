@@ -11,6 +11,11 @@ layout: home
    </div>
         <ul class="artical-cate">        
             <li class="on"><a href="/">Blog</a></li>
+            	<ul class="dropdown" style="display:none;">
+            	<li><a href="/blog/Float to left>Float to left</a>"</li>
+            	<li><a href="/blog/For the record">For the record</a></li>
+            	<li><a href="/blog/Blahblahblah">Blahblahblah</a></li>
+            	</ul>
             <li><a href="/contact">Contact</a></li>
             <li><a href="/portfolio">Portfolio</a></li>
         </ul>
@@ -26,10 +31,10 @@ layout: home
         	</ul></li>
         	<li><h2>Find me @</h2>
         	<ul class="entry-list">
-        		<li>∈ <a href="http://weibo.com/lynettel"> 新浪微博</a></li>
-        		<li>∈ <a href="http://www.douban.com/people/ll61/">豆瓣</a></li>
-        		<li>∈ <a href="https://twitter.com/Back2infinity">推特</a></li>
-        		<li>∈ <a href="http://pinterest.com/lynettelu/">Pinterest</a></li>
+        		<li>∈ <a href="http://weibo.com/lynettel" target="_blank"> 新浪微博</a></li>
+        		<li>∈ <a href="http://www.douban.com/people/ll61/" target="_blank">豆瓣</a></li>
+        		<li>∈ <a href="https://twitter.com/Back2infinity" target="_blank">推特</a></li>
+        		<li>∈ <a href="http://pinterest.com/lynettelu/" target="_blank">Pinterest</a></li>
             	</ul></li>
            <li> <h2>Contact</h2>
         	<ul class="entry-list">

@@ -197,6 +197,26 @@ img {
     -o-transition: all .6s ease-out;
     transition: all .6s ease-out;
     text-decoration:none; }
+.artical-cate a:visited {
+    font-weight: bold;
+}
+
+.dropdown ul {
+    padding: 5px 0;
+min-width: 90px;
+z-index: 999;
+position: absolute;
+top: 20px;
+left: 15px;
+display: none;
+background: rgba(226, 221, 217, 0.8);
+-webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
 
 .entry-content {
     padding:20px;
