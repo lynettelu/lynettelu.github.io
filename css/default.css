@@ -82,7 +82,7 @@ img {
           .header h1 a { 
                     color: #333333;
                     font-weight:100; 
-                    border:0 !important;
+                    border:0 ;
                     text-decoration: none;
                }
 
@@ -294,6 +294,7 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
     font-size: 14px;
     font-weight: 200;
     color: #444;
+    z-index: !important
 }
 
 @media screen and (max-width: 750px){
