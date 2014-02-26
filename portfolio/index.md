@@ -10,7 +10,7 @@ layout: home
      <h2>Look at the stars, look how they shine for you.</h2>
    </div>
         <ul class="artical-cate">        
-            <li class="on"><a href="/">Blog</a></li>
+            <li class="on"><a href="/blog">Blog</a></li>
             <li><a href="/contact">Contact</a></li>
             <li><a href="/portfolio">Portfolio</a></li>
         </ul>

@@ -280,6 +280,13 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 .home-contact a { width:30px; display:inline-block; }
 .home-contact img { width:18px; }
 
+/**************pagination****************/
+
+.pagination{
+    text-align: center;
+}
+
+
 /**************credit****************/
 #credit{
     margin: 0px 0px 50px 0px;

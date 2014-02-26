@@ -10,7 +10,7 @@ layout: home
      <h2>Look at the stars, look how they shine for you.</h2>
    </div>
         <ul class="artical-cate">        
-            <li class="on"><a href="/">Blog</a></li>
+            <li class="on"><a href="/blog">Blog</a></li>
             	<ul class="dropdown" style="display:none;">
             	<li><a href="/blog/Float to left>Float to left</a>"</li>
             	<li><a href="/blog/For the record">For the record</a></li>
