@@ -2,14 +2,14 @@ auto: true
 
 markdown: rdiscount
 pygments: true
-paginate: 10
+paginate: 8
 permalink:  /:categories/:title
 paginate_path: "blog/page:num"
 
 excerpt_separator:  <!--more-->
 
 title: Across the universe
-url: http://lynettelu.co
+url: http://lynettelu.co/blog/
 category: category_name
 feed: /atom.xml
 author_info: <a href="http://lynettelu.co/">Lynette Lu</a>
