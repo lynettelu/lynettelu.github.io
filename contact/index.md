@@ -17,7 +17,7 @@ layout: home
             	<li><a href="/blog/Blahblahblah">Blahblahblah</a></li>
             	</ul>
             <li><a href="/contact">Contact</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
+            <li><strike>Portfolio</strike></li>
         </ul>
 
         <ul class="entry-content">
