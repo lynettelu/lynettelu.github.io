@@ -31,12 +31,12 @@ function animationHover(header, tada){
   header = $(header);
   header.hover(
     function() {
-      header.addClass('animated ' + tada);
+      header.addClass( 'tada' );
     },
     function(){
       //wait for animation to finish before removing classes
       window.setTimeout( function(){
-        header.removeClass('animated ' + tada);
+        header.removeClass('tada');
       }, 2000);
     }
   );
