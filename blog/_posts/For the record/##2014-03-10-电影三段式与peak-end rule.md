@@ -6,9 +6,9 @@ category: For the record
 
 当我们在说体验的时候，我们到底在说什么？
 
-对于UX（User Experience），被大多数人所认同的一点是，它是无法被「设计」的。但事实上，远在用户体验一词为大众所认知并成功说到烂之前，小说、音乐、电影这些文明社会的产物就作出了
+对于UX（User Experience），被大多数人所认同的一点是，它是无法被「设计」的。但事实上，远在用户体验一词为大众所认知并成功说到烂之前，小说、音乐、电影这些人类文明的精华就作出了好的范例。从某种意义上，这些是远早于电子游戏就出现了的沉浸式设计（immersive design experience）。
 
-对于电影编剧来说，三段式结构是最容易下手的基本框架。小说、音乐、电影是远早于电子游戏的沉浸式设计（immersive design experience）。
+对于电影编剧来说，三段式结构是最容易下手的基本框架。
 
 Neil Landau在101 things I learned in film school一书里对three-act structure的解释是这样的：
 
@@ -27,4 +27,4 @@ Neil Landau在101 things I learned in film school一书里对three-act structure
 
 ![peak-end rule](/images/peak-end rule.jpg "peak-end rule")
 
-Peak-end rule描述了人类回忆过往体验好还是不好基于整段体验的peak和end的绝对差，和整体时长没有关联。
+Peak-end rule描述的是，人类对过往体验的感知是基于整段体验的peak和end的绝对差，和整体时长没有关联。
