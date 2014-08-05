@@ -16,7 +16,7 @@ layout: home
         </ul>
 
         <ul class="artical-list">
-        {% for post in site.posts %}
+        {% for post in paginator.posts %}
             <li>
                 <h2><a href="{{ post.url }}">{{ post.title }}</a> | <a href="{{ /:categories }}">{{ post.category }}</a></h2>
                                 <div class="title-desc">{{ post.excerpt }}</div>
@@ -36,7 +36,7 @@ layout: home
     {% if page == paginator.page %}
       <div class="em">{{ page }}</div>
     {% elsif page == 1 %}
-      <a href="{{ '/blog/index.html' | prepend: baseurl | replace: '//', '/' }}">{{ page }}</a>
+      <a href="{{ '/index.html' | prepend: baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% else %}
       <a href="{{ site.paginate_path | prepend: baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
