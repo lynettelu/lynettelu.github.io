@@ -38,7 +38,7 @@ layout: home
     {% elsif page == 1 %}
       <a href="{{ '/blog/index.html' | prepend: baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% else %}
-      <a href="{{ site.paginate_path | prepend: baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      <a href="{{ paginator.paginate_path | prepend: baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
   {% endfor %}
 
