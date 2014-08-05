@@ -24,31 +24,19 @@ layout: home
             </li>
         {% endfor %}
 
-{% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
   {% else %}
-    <span>&laquo; Prev</span>
+    <span class="previous">Previous</span>
   {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <div class="em">{{ page }}</div>
-    {% elsif page == 1 %}
-      <a href="{{ 'blog/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ paginator.page | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
   {% else %}
-    <span>Next &raquo;</span>
+    <span class="next ">Next</span>
   {% endif %}
 </div>
-{% endif %}
 
         </ul>
         </div>
