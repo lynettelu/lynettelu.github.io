@@ -31,7 +31,7 @@ layout: home
     <span>&laquo; Prev</span>
 
   {% endif %}
-      <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+      <span class="page_number" style="padding:10px;">{{ paginator.page }} of {{ paginator.total_pages }}</span>
 
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
