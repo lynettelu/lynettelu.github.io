@@ -159,6 +159,7 @@ img {
                                   margin-top: 100px;
                                   margin-bottom: 200px;}
 .index-content h2 { font-size:22px; margin-bottom:40px; }
+.index-content h3 { font-size:22px; margin-bottom:40px; margin-top:40px;}
 .index-content h2 a { color:#444 }
 .entry-list a a:visited{
                     color: #333333;
@@ -239,12 +240,12 @@ border-bottom-left-radius: 5px;
 blockquote {
     display: block;
     line-height: 1.4;
-    text-align: center;
     font-size: 18px;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 40px;
-    -webkit-margin-end: 40px;
+    border-left: 3px solid rgba(230, 230, 230, 0.8);
+    padding-left: 20px;
+    margin-left: -23px;
+    margin-top: 40px;
+    margin-bottom:50px;
 }
 }
 
