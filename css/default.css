@@ -120,12 +120,11 @@ img {
 .entry blockquote{
     display: block;
     line-height: 1.4;
-    text-align: center;
-    font-size: 18px;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 40px;
-    -webkit-margin-end: 40px;
+    border-left: 3px solid rgba(230, 230, 230, 0.8);
+    padding-left: 20px;
+    margin-left: -23px;
+    margin-top: 40px;
+    margin-bottom:50px;
 }
 .entry img{max-width:100%;display:block;margin:10px auto;}
 
