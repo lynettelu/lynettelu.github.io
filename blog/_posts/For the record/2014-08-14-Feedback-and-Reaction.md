@@ -4,7 +4,7 @@ title: Feedback and Reaction
 category: For the record
 ---
 
-![set](/images/face.png "Observe the real reaction")
+![set](/images/face.jpg "Observe the real reaction")
 
 Daniel Kahneman在「Thinking, Fast and Slow」里提到了两种大脑思考模式，系统1和2。系统1俗称直觉，他依赖情感、记忆和经验等作判断，速度快；系统2是我们通常意义上理解的「理智」，他会慢一点，因为需要调动注意力来分析问题。
 
