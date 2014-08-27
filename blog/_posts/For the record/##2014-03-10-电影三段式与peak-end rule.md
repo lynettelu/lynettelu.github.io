@@ -28,3 +28,14 @@ Neil Landau在101 things I learned in film school一书里对three-act structure
 ![peak-end rule](/images/peak-end rule.jpg "peak-end rule")
 
 Peak-end rule描述的是，人类对过往体验的感知是基于整段体验的peak和end的绝对差，和整体时长没有关联。
+
+Index
+----
+1、电影的结构
+2、三段式是什么
+3、三段式形成的理由
+4、观众对三段式的感知/从心理学层面分析三段式
+5、什么是peak-end rule
+6、peak-end rule与三段式的关系
+7、peak-end rule及三段式对UX的启示
+8、UX借鉴peak-end rule和三段式的具体案例
