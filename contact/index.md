@@ -25,7 +25,7 @@ layout: home
         	<ul class="entry-list">
         		<li>∈ 女</li>
         		<li>∈ 上海</li>
-        		<li>∈ 体验设计师</li>
+        		<li>∈ User Experience Designer / Problem Solver / Structural Hole Connecter</li>
         		<li>∈ There are universes beneath your skin.</li>
         		<li>∈ Theme of 2014: Avoid default mindsets.</li>
         	</ul></li>
