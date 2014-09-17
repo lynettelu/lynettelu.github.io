@@ -39,3 +39,42 @@ Index
 6、peak-end rule与三段式的关系
 7、peak-end rule及三段式对UX的启示
 8、UX借鉴peak-end rule和三段式的具体案例
+
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
