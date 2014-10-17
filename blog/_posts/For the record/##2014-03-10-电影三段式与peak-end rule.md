@@ -42,7 +42,7 @@ Index
 
 ----
 
-
+>The longer you touch an object, the greater value you assign to it.
 
 
 
