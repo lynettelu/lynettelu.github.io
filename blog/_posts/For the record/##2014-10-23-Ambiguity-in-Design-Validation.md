@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How hard is it to measure a design?
+title: Ambiguity in Design Validation
 category: For the record
 ---
 
