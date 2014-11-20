@@ -30,3 +30,31 @@ In art and architecture, decorations or visual motifs may be combined and repeat
 
 ----
 
+「Why getting it wrong is the future of design」
+
+进化的本质：复制、复制、大量复制，然后变异，适者生存，进化稳定成为新的基准线。
+
+创新和这个没有太大的区别，每天都有人高举旗帜喊出新的想法，如果被接受那么这个想法就不断自我复制。从diffusion of innovation的理论中，
+
+而现在最大的关键点在于「怎么变异」。变异一词从另个角度其实就可以理解成犯错，在进化的过程中，所谓的突变就是遗传因子复制错了。
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
