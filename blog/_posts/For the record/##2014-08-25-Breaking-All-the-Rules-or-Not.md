@@ -6,37 +6,33 @@ category: For the record
 
 ![set](/images/breaking.jpg "Breaking all the rules")
 
-「找寻出固定模式是人类基本的认知功能之一。」擅长识别特定模式让大脑能节约更多资源更快反应。大脑无时无刻不在寻找并识别pattern。什么是pattern？「Discernible regularity in the world or in a manmade design. The elements of a pattern repeat in a predictable manner.」而有趣的是，大脑对于图像、数字、音乐、游戏等形式中出现的pattern，表现出了极为矛盾的态度：期待相似又熟悉的出现，但又讨厌一味的重复。
+>找寻出固定模式是人类基本的认知功能之一。
+
+擅长识别特定模式让大脑节约能量且更快反应。人类的团队合作倾向让大脑进化出了特定识别人脸的脑区，这个区域无时无刻不在匹配像是人脸的形状，所以在蟹壳、饼干、云朵、墙壁甚至月球表面看到疑似人脸的事一点都不奇怪，我们的大脑天生擅长干这个。Pattern，即以可预期的模式进行重复的元素既是推动进化的因，也是果。但有趣的是，大脑对于图像、数字、音乐、游戏中出现的各式各样的pattern，表现出了极为矛盾的态度：期待相似又熟悉的出现，但又讨厌一味的重复。（真是难伺候啊。
+
+作曲家说噪音是我们尚不能识别的音乐。画作中黄金比例分割的发现让人类认识到普罗大众在审美上有着某种一致性。建筑这些都是模式对大脑的吸引力，成功匹配既定模式就像是游戏里那些有些难度但又不会太难的小关卡，过关成功的时候会得到无与伦比的愉悦感。
+
+大脑因为太爱模式以至于有时候当模式很微弱的时候大脑会自动补全并强化它，比如说格式塔。
+
+![set](/images/gestalt.png "Gestalt")
+
+但是，大脑这个磨人的小妖精某些时候又会突然讨厌起模式来，表现出来就是觉得无聊。
 
 
-1、pattern在图像中的例子
-	黄金分割、大脑对人脸的快速识别
-2、pattern在数字中的例子
-3、pattern在游戏中的例子
-4、大脑为什么期待相似pattern但又讨厌一味重复
-5、如何运用
-
-1. The brain is good at cutting out the irrelevant.
-2. People dislike chaos. We like order - not regimented order, but order with a bit of texture or variation to it. For example, there's a long tradition in art history of observing that many paintings use a system of order called the golden section, which is basically just a way of dividing up the space on the painting into boxes of different proportions. It tuns out that doing so makes the painting appear "prettier" to us.
-3. There's some hightly ordered music that doesn't appeal to most of us either. A lot of folks say that the strain of jazz known as bebop is just noise.
-4. Noise is any pattern we don't understand.
-5. Once we see a pattern we delight in tracing it and in seeing it reoccur.
-
-
-
-Any of the five senses may directly observe patterns. Conversely, abstract patterns in science, mathematics, or language may be observable only by analysis. Direct observation in practice means seeing visual patterns, which are widespread in nature and in art. Visual patterns in nature are often chaotic, never exactly repeating, and often involve fractals. Natural patterns include spirals, meanders, waves, foams, tilings, cracks, and those created by symmetries of rotation and reflection. Patterns have an underlying mathematical structure;[1] indeed, mathematics can be seen as the search for regularities, and the output of any function is a mathematical pattern. Similarly in the sciences, theories explain and predict regularities in the world.
-
-In art and architecture, decorations or visual motifs may be combined and repeated to form patterns designed to have a chosen effect on the viewer. In computer science, a software design pattern is a known solution to a class of problems in programming. In fashion, the pattern is a template used to create any number of similar garments.  
 
 ----
 
-「Why getting it wrong is the future of design」
+从pattern的习惯性匹配到创新的本质
+
+----
 
 进化的本质：复制、复制、大量复制，然后变异，适者生存，进化稳定成为新的基准线。
 
-创新和这个没有太大的区别，每天都有人高举旗帜喊出新的想法，如果被接受那么这个想法就不断自我复制。从diffusion of innovation的理论中，
+变异换句话说就是犯错，在进化中，所谓的突变就是遗传因子复制错了，复制错的基因促成了与以往不同的蛋白质的生成，从而又导致了不同的肢体表现，可能是更长的腿，或者是比其他个体多一根手指，因为能比其他个体更适应环境，这个复制错的基因在群体中慢慢扩散开，变成了「对」的基因。
 
-而现在最大的关键点在于「怎么变异」。变异一词从另个角度其实就可以理解成犯错，在进化的过程中，所谓的突变就是遗传因子复制错了。
+创新和这个没有太大的区别。第一个吃螃蟹的人每天都有人高举旗帜喊出新的想法，如果被接受那么这个想法就不断自我复制。从diffusion of innovation的理论中，
+
+而现在最大的关键点在于「怎么犯错」。到了这里，需要分清的是「犯错」和「犯傻」的区别，做到有效犯错、高效犯错、有价值犯错。 
 
  
 
