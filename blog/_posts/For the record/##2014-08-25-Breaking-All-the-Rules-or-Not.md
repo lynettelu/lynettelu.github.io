@@ -38,6 +38,8 @@ In art and architecture, decorations or visual motifs may be combined and repeat
 
 而现在最大的关键点在于「怎么变异」。变异一词从另个角度其实就可以理解成犯错，在进化的过程中，所谓的突变就是遗传因子复制错了。
 
+Sch
+
  
 
 
