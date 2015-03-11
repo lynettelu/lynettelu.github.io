@@ -17,7 +17,7 @@ Page Orientation即页面方向，指的是矩形平面以长边为底还是以�
 
 ###人眼对Portrait和Landscape的感知
 
-Portrait和Landscape的划分反应了一个视觉的事实，即人类从左至右视物比自上而下更多，眼球转动范围内的横向双眼视物为114度，而纵向的则在60度左右。所以人类的视域（Field of View）范围可见下图，本身就接近Landscape。
+Portrait和Landscape的划分反应了一个视觉的事实，即人类从左至右视物比自上而下更多，双眼系统的横向视物范围为114度，纵向的则在60度左右。所以人类的视域（Field of View）范围可见下图，本身就接近Landscape。
 
 ![set](/images/fieldofview.png)
 
