@@ -27,7 +27,7 @@ layout: home
         		<li>∈ 上海</li>
         		<li>∈ User Experience Designer / Problem Solver / Structural Hole Connecter</li>
         		<li>∈ There are universes beneath your skin.</li>
-        		<li>∈ Theme of 2014: Avoid default mindsets.</li>
+        		<li>∈ Theme of 2015: Deliberate practise.</li>
         	</ul></li>
         	<li><h2>Find me @</h2>
         	<ul class="entry-list">
