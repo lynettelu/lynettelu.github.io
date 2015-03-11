@@ -9,6 +9,7 @@ category: For the record
 0、静态图、视频、显示设备三大类常用比率
 1、各大网站对图片比例的使用对比（web+mobile）
 2、主流笔记本+智能机屏幕比例对比
+3、Portrait vs Landscape dilemma
 3、结论
 
 ------
@@ -47,8 +48,21 @@ aspect ratio即宽高比，这里我们只讨论最常见的三大类：摄影�
 
 
 
+Page orientation is the way in which a rectangular page is oriented for normal viewing. The two most common types of orientation are portrait and landscape. 
 
+Page orientation is also used to describe the dimensions of a video display. The most common video display orientation is landscape mode, especially the 4:3 ratio, which is 4 units wide and 3 units tall, and the more recent 16:9 widescreen landscape display mode.
 
+Portrait screen orientation is also used for computer displays, though less commonly than landscape, and is the most popular orientation for mobile devices. Portrait is preferred for editing page-layout work, in order to view the entire page on the screen at once without wasted space along the sides, and for script-writing, legal work (in drafting contracts etc.), and other applications where it is useful to see a maximum number of lines of text. It is also common in public information displays.
 
+-----
+
+Landscape Orientation: video displays including TVs and movies
+Portrait Orientation: mobile devices/page layout editing/script writing/public infos display
+
+-----
+
+The very first use of page orientation for Xerox Alto is portrait. Since "...the portrait display faded away while common landscape-display televisions were appropriated for use as an inexpensive early microcomputer display." 
+
+Portrait orientation for word processing
 
 
