@@ -33,7 +33,7 @@ Portrait和Landscape的划分反应了一个视觉的事实，即人类从左至
 
 第一台(?)图形化界面个人电脑Xerox Alto象征了GUI时代的开始（Thank God UI设计师有饭吃了），它的显示屏其实是Portrait的。
 
-![set](/images/xeroxalto.jpg)
+![set](/images/xeroxalto.JPG)
 
 为什么Alto用的Portrait已不可考，个人猜测是因为个人电脑的原始需求来自辅助办公，写写文章、填填表格什么的。
 
