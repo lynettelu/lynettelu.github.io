@@ -12,16 +12,6 @@ category: For the record
 3、Portrait vs Landscape dilemma
 3、结论
 
-------
-
-比例系统：
-
-1、Portrait vs Landscape
-2、Aspect Ratio Evolution
-3、The Waterfall Effect
-
-
-------
 
 
 0、静态图、视频、显示设备三大类常用比率
