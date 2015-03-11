@@ -47,7 +47,7 @@ Portrait一度风光无两，70年后期到80年早期的IBM PC多为Portrait，
 
 技术发展到今天，从台式电脑到笔记本再到智能手机，普通用户能明显感知到的差异在于尺寸。手持设备顾名思义「一手可持」，人类手掌的生理特性让历史的荣光再次回到了Portrait。
 
-![set](/images/multidevice.jpg)
+![set](/images/multidevice.png)
 
 一份对互联网行业的调查结果表明多数人认为近两年业界的重点在于跨多种设备的连贯（consistency）上。
 
