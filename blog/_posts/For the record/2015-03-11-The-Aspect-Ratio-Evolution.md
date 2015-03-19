@@ -6,8 +6,6 @@ category: For the record
 
 ![set](/images/aspectratio.jpg)
 
-
-
 ###常用比率
 
 195x年开始的信息时代，最显著的特征是模拟技术转向数字技术，平面设计也从以纸为媒介逐渐由电子设备主导，颗粒度单位自然发生变化了但这对设计师而言影响并不那么大，问题在于比率。
@@ -47,6 +45,7 @@ Aspect ratio即宽高比，这里只讨论最常见的三大类：摄影、视�
 ![set](/images/cardlayout.jpg)
 
 非1:1比率的处理，一类是用card layout进行比率补偿，比如youtube；
+
 
 ![set](/images/cardlayout2.jpg)
 
