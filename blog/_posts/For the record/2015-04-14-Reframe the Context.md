@@ -15,7 +15,7 @@ credit to: [FusionFramesNW](https://www.etsy.com/shop/FusionFramesNW/)
 
 ![set](/images/Hands.jpg)
 
-Bret Victor 2011年就在「[A Brief Rant on the Future of Interaction Design](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/)」一文里质疑触摸屏幕的形式对手指灵活度的极大浪费(仅仅是抓取不同的物体手指就呈现出了极其丰富的姿势)，他管这种科技趋势叫做「Pictures Under Glass」。
+Bret Victor 2011年就在「[A Brief Rant on the Future of Interaction Design](http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/)」一文里质疑触摸屏幕的形式对手指灵活度的极大浪费（仅仅是抓取不同的物体手指就呈现出了极其丰富的姿势），他管这种科技趋势叫做「Pictures Under Glass」。
 
 
 Golden Krishna在「[The best interface is no interface](http://www.theverge.com/2015/3/17/8103593/golden-krishna-best-interface-is-no-interface-excerpt)」假设了用手机app实现打开车门需要几步，出乎意料又在情理之中的结果是13步，如果把走到车边和实际打开车门去掉的话，也需要11步；远比现有的从口袋里掏出车钥匙，按动物理按键，车门自动打开的场景要复杂得多。
