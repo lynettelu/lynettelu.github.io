@@ -22,8 +22,8 @@ Source: [On Demand Economy](https://www.youtube.com/watch?v=rgTjKM4C9Dg&feature=
 
 通过对1800到2000年间可追溯的94526幅画作的数据分析，可见两个趋势：
 
-1. 20世纪画作对于蓝色的喜好；
-2. 整体色调更明亮的倾向；
+1、20世纪画作对于蓝色的喜好；
+2、整体色调更明亮的倾向；
 
 Source: [The color of paintings: Blue is the new orange](http://blog.martinbellander.com/post/115411125748/the-colors-of-paintings-blue-is-the-new-orange)
 
