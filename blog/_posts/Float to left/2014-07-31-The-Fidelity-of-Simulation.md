@@ -18,7 +18,9 @@ Internet的本质是数据的流动、交换，如果映射成生物体的话，
 
 随着技术的推进，越来越多的online service涌现，p2p的即时沟通、facetime、online购物等等，都是在一步步完善对现实的「模拟」，所谓的offline to online（或者倒一下）不就如此。从前这场模拟的保真度不是很高，图像是黑白的，像素非常低（现实都是retina了），需要借助第三方device（如鼠标）来完成控制，但回头看这一路走来，「虚拟」正越来越拟真、自然，学习「现实」并试图超越「现实」。
 
-「The internet is still at the beginning of its beginning.」真是，太有趣了。（LOL
+>The internet is still at the beginning of its beginning.」
+
+这真是太有趣了。
 
 
 

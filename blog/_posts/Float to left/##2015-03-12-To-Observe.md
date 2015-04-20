@@ -16,7 +16,7 @@ category: Float to left
 
 ![set](/images/fibonaccispiral.jpg)
 
-Simon S
+Simon S在TED上做过一次广受好评的演讲，
 
 黄金分割在自然界存在已久，常被艺术家和建筑师运动到实际生活场景中，但人们知其然不知其所以然。直到通过大量的实例分析及计算后，才得到1.618这个精确的数字。
 
