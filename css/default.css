@@ -102,7 +102,6 @@ img {
                     line-height:22px;
                     text-align:center;
                     margin-left:-15px;
-                    width: 550px;
                     margin:5px auto;
 
               }
@@ -328,9 +327,9 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
     .index-content .section ul { width:85%;}
     .index-content .cate-bar { width:85%; }
     .index-content .artical-cate { margin-top:50px; margin-left:auto;margin-right:auto;}
-    .index-content .artical-cate li{font-size:120%;margin-left:-220px;}
+    .index-content .artical-cate li{font-size:120%;margin-left:-220px;position:fixed;}
     .index-content img{max-width:90%;}
-    .header {font-size:90%;}
+    .header {font-size:75%;margin-bottom:-120px;}
 
     .blog .aside,
     .project .aside,
