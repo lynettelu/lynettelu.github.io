@@ -6,7 +6,7 @@ layout: home
     <div class="section">
     <div class="section2">
     <div class="header">
-     <h1><a href="/">Ad Astra</a></h1>
+     <h1><a href="/">Sic itur ad astra</a></h1>
      <h2>Per aspera ad astra.</h2>
    </div>
         <ul class="artical-cate">
