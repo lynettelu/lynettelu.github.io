@@ -327,6 +327,8 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
     .index-content .section ul { width:85%; }
     .index-content .cate-bar { width:85%; }
     .index-content .artical-cate { margin-top:50px; }
+    .index-content .artical-list {font-size:14px;}
+    .index-content img{max-width:90%;}
 
     .blog .aside,
     .project .aside,
