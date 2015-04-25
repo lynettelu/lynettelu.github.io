@@ -324,12 +324,12 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
     .index-content .aside { position:relative; width:100%; height:300px; max-width:none; }
     .index-content .section { margin-left:10px; margin-top:20px; width:95%}
     .index-content .section2 {width:98%}
-    .index-content .section ul { width:85%;font-size:110%;}
+    .index-content .section ul { width:85%;font-size:110%;padding-left:10%;}
     .index-content .cate-bar { width:85%; }
     .index-content .artical-cate { margin-top:50px; margin-left:auto;margin-right:auto;}
-    .index-content .artical-cate li{font-size:120%;margin-left:-220px;visibility:hidden;}
+    .index-content .artical-cate li{font-size:120%;margin-left:-220px;border-top:none;border-bottom:none;width:75px;}
     .index-content img{max-width:90%;}
-    .header {font-size:75%;margin-bottom:-120px;}
+    .header {font-size:72%;margin-top:40px;}
 
     .blog .aside,
     .project .aside,
