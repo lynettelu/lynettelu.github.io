@@ -57,7 +57,7 @@ Link: [Things Organized Neatly](http://thingsorganizedneatly.tumblr.com/)
 
 ![](/images/facial.jpg "facial")
 
-伦敦一家创业公司凭其观察并记录用户表情的产品，近日获得了390万美金的投资。先不论其对微表情理解的正确性，反应（reaction）的确是比反馈（feedback）来得更为真实有效的数据。理性人会在别人踩了他一脚漫不经心道歉的时候回一句没关系，但再理性的人当时表情也不会很好看。虽然人类经过10万年的进化长出了沟回曲折的大脑皮层，但本质上，我们都只是看起来现代的穴居人。
+伦敦一家创业公司凭其观察并记录用户表情的产品，近日获得了390万美金的投资。先不论其对微表情理解的正确性，反应（reaction）的确是比反馈（feedback）来得更为真实有效的数据。理性人会在别人踩了他一脚漫不经心道歉的时候回一句没关系，但再理性的人当时表情也不会很好看。虽然从猩猩到人类的进化过程产生了沟回曲折的新皮层（neocortex），但本质上，我们都只是看起来现代的穴居人。
 
 Source: [Emotion Tracking Startup Gets EU Funding Boost](http://blogs.wsj.com/digits/2015/04/17/emotion-tracking-startup-gets-eu-funding-boost/)
 
