@@ -36,8 +36,8 @@ layout: home
         		<li>∈ <a href="https://twitter.com/Back2infinity" target="_blank">推特</a></li>
         		<li>∈ <a href="http://pinterest.com/lynettelu/" target="_blank">Pinterest</a></li>
             <li>∈ 微信公众号：AcrosstheUniverse</li>
-            <li>∈ <a href="http://http://lynettel.gitbooks.io/for-the-record/content/" target="_blank">工作笔记Gitbook</a></li>
-            <li>∈ <a href="http://http://lynettel.gitbooks.io/watermelon-and-canon-in-d-major/content/" target="_blank">西瓜与D大调卡农Gitbook</a></li>
+            <li>∈ <a href="http://lynettel.gitbooks.io/for-the-record/content/" target="_blank">工作笔记Gitbook</a></li>
+            <li>∈ <a href="http://lynettel.gitbooks.io/watermelon-and-canon-in-d-major/content/" target="_blank">西瓜与D大调卡农Gitbook</a></li>
             	</ul></li>
            <li> <h2>Contact</h2>
         	<ul class="entry-list">
