@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Weekly 2ed Sparks
+title: Weekly 2nd Sparks
 category: Float to left
 ---
 
