@@ -3,6 +3,7 @@ layout: post
 title: The Darwinism of Sharing
 category: Float to left
 ---
+![set](/images/Darwinism.jpg)
 
 I had my ritual of making extra copies: memos written on the notebook, typed in the native Notes, and taken as photos at the same time, books that one for reading, one for reserve, occasionally a e-book version in case of commuting emergency.
 
@@ -30,7 +31,7 @@ But wait a second, how did my sharing have to do with entropy any way?
 
 After the skirmish it seemed to be, I reflected on my actions and made it clear to a theory:
 
-###Memes have to reproduce themselves through the machines (me in this case) to spread and survive in an overloaded information torrent of our time.
+<b>Memes have to reproduce themselves through the machines (me in this case) to spread and survive in an overloaded information torrent of our time.</b>
 
 I don't  invent this for the concept of meme was stated by Richard Dawkins decades ago at the time even Richard wouldn't have expected it as such a buzzword until now.
 
