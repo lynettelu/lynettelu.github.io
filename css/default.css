@@ -28,7 +28,7 @@ body .hide{display:none;}
 
 
 /***********default settings**********/
-body {font-family: 'Helvetica Neue', "Hiragino Sans GB","Microsoft Yahei"，Arial, Helvetica, sans-serif;font-size:16px;}
+body {font-family: Helvetica Neue, Hiragino Sans GB,Microsoft Yahei，Arial, Helvetica, sans-serif;font-size:16px;}
 a {color:#FCB310;text-decoration:none;outline:none;}
 a:link, a:visited {
     color:#333333;
@@ -71,7 +71,7 @@ img {
 
               }
           .header h1 {
-                    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+                    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
                     line-height:106px;
                     font-size:400%;
                     font-weight:200;
