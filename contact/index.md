@@ -17,7 +17,7 @@ layout: home
             	<li><a href="/blog/Blahblahblah">Blahblahblah</a></li>
             	</ul>
             <li><a href="/contact">Contact</a></li>
-            <li><strike>Portfolio</strike></li>
+            <li><a href="/portfolio">Portfolio</a></li>
         </ul>
 
         <ul class="entry-content">
@@ -27,7 +27,7 @@ layout: home
         		<li>∈ 上海</li>
         		<li>∈ User Experience Designer / Problem Solver / Structural Hole Connecter</li>
         		<li>∈ There are universes beneath your skin.</li>
-        		<li>∈ Theme of 2015: Deliberate practise.</li>
+        		<li>∈ Theme of 2016: Arete.</li>
         	</ul></li>
         	<li><h2>Find me @</h2>
         	<ul class="entry-list">
