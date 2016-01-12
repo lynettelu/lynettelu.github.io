@@ -12,11 +12,11 @@ layout: home
         <ul class="artical-cate">
             <li class="on"><a href="/blog">Blog</a></li>
             <li><a href="/contact">Contact</a></li>
-            <li><strike>Portfolio</strike></li>
+            <li><a href="/portfolio">Portfolio</a></li>
         </ul>
 
         <ul class="artical-list">
-        <a href="/images/Lynette Lu's Portfolio.jpg">
+        <a href="/images/Jiahui Lu's Portfolio.jpg">
 <img src="/images/Jiahui Lu's Portfolio.jpg" alt="Jiahui Lu's Portfolio"></a>
 
 
