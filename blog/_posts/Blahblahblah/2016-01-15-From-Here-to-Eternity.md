@@ -1,6 +1,6 @@
 ---
 layout: post
-title: From Here to Eternity: Alan Rickman, 1946-2016
+title: From Here to Eternity
 category: Blahblahblah
 ---
 
