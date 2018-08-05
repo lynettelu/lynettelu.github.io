@@ -27,20 +27,20 @@ layout: home
         		<li>∈ 上海</li>
         		<li>∈ User Experience Designer / Problem Solver / Structural Hole Connecter</li>
         		<li>∈ There are universes beneath your skin.</li>
-        		<li>∈ Theme of 2016: Arete.</li>
+        		<li>∈ Theme of 2018: Man is born broken. He lives by mending.</li>
         	</ul></li>
         	<li><h2>Find me @</h2>
         	<ul class="entry-list">
             <li>∈ 微信公众号：AcrosstheUniverse</li>
+            <li>∈ <a href="https://zhuanlan.zhihu.com/lynettelu" target="_blank">知乎专栏：西瓜与D大调卡农</a></li>
             <li>∈ <a href="http://lynettel.gitbooks.io/for-the-record/content/" target="_blank">工作笔记Gitbook</a></li>
-            <li>∈ <a href="http://lynettel.gitbooks.io/watermelon-and-canon-in-d-major/content/" target="_blank">西瓜与D大调卡农Gitbook</a></li>
             	</ul></li>
            <li> <h2>Contact</h2>
         	<ul class="entry-list">
         		<li>lynlu255#gmail.com</li>
         		</ul></li>
         </ul>
-
+    
                </div>
      </div>  
         <div id="credit">
